@@ -1,0 +1,46 @@
+[
+  {
+    "id": "martin_standing",
+    "character": "Martin",
+    "tags": ["standing", "pointing"]
+  },
+  {
+    "id": "claude_sitting",
+    "character": "Claude",
+    "tags": ["office", "chair", "foreward facing"]
+  },
+  {
+    "id": "alex_sitting",
+    "character": "Alex",
+    "tags": [
+      "profile",
+      "masc",
+      "short hair",
+      "sitting",
+      "eyes closed",
+      "celebrating"
+    ],
+    "buySvg": "https://payhip.com/b/gaKu5"
+  },
+  {
+    "id": "alex_standing",
+    "character": "Alex",
+    "tags": ["profile", "masc", "short hair", "standing", "holding paper"],
+    "buySvg": "https://payhip.com/b/zhNak"
+  },
+  {
+    "id": "victoria_profile_white",
+    "character": "Victoria",
+    "tags": ["profile", "femme", "outline"]
+  },
+  {
+    "id": "victoria_sitting",
+    "character": "Victoria",
+    "tags": ["profile", "femme", "sitting", "pointing", "talking"]
+  },
+  {
+    "id": "victoria_standing",
+    "character": "Victoria",
+    "tags": ["profile", "femme", "standing", "smiling"]
+  }
+]

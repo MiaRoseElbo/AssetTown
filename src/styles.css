@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  /* Font */
+  --font-main: "Eczar", serif;
+
+  /* Basics */
+  --white: #fff;
+  --grey: #ccc;
+
+  /* xxx */
+
+  /* Skins */
+
+  /* Dark Blue */
+  --darkBlueDark02: #03112e;
+  --darkBlueDark01: #0f5491;
+  --darkBlueColor: #0176de;
+  --darkBlueDimmed01: #67adeb;
+  --darkBlueDimmed02: #cce4f8;
+  --darBlueDimmed03: #e6f2fb;
+
+  /* Blue */
+  --blueDark02: #314573;
+  --blueDark01: #4a68ad;
+  --blueColor: #628ae6;
+  --blueDimmed01: #a1b9f0;
+  --blueDimmed02: #e0e8fa;
+  --blueDimmed03: #f0f3fe;
+
+  /* Light Blue */
+  --lightBlueDark02: #48717b;
+  --lightBlueDark01: #6ba9b8;
+  --lightBlueColor: #8fe1f5;
+  --lightBlueDimmed01: #bcedf9;
+  --lightBlueDimmed02: #e9f9fd;
+  --lightBlueDimmed03: #e2ebee;
+
+  /* Green */
+  --greenDark02: #317864;
+  --greenDark01: #00a167;
+  --greenColor: #71d187;
+  --greenDimmed01: #aae3b7;
+  --greenDimmed02: #e3f6e7;
+  --greenDimmed03: #f1fbf4;
+
+  /* Yellows */
+  --yellowDark02: #e3ae00;
+  --yellowDark01: #fec60d;
+  --yellowColor: #ffd300;
+  --yellowDimmed01: #ffe566;
+  --yellowDimmed02: #fff6cc;
+  --yellowDimmed03: #fffbeb;
+
+  /* Orange */
+  --orangeDark02: #7e4300;
+  --orangeDark01: #bd6400;
+  --orangeColor: #fc8500;
+  --orangeDimmed01: #fdb666;
+  --orangeDimmed02: #fee7cc;
+  --orangeDimmed03: #fff5eb;
+
+  /* Red */
+  --redDark02: #91082c;
+  --redDark01: #ab123a;
+  --redColor: #f4313b;
+  --redDimmed01: #f88389;
+  --redDimmed02: #fdd6d8;
+  --redDimmed03: #fef1f1;
+
+  /* Violet */
+  --violetDark02: #5e4f8e;
+  --violetDark01: #7a69a4;
+  --violetColor: #9572e8;
+  --violetDimmed01: #a994ed;
+  --violetDimmed02: #efeafc;
+  --violetDimmed03: #f7f5fe;
+
+  /* Lilac */
+  --lilacDark02: #853d7a;
+  --lilacDark01: #b251a3;
+  --lilacColor: #c174b5;
+  --lilacDimmed01: #d197c8;
+  --lilacDimmed02: #efd3eb;
+  --lilacDimmed03: #f9f0f6;
+
+  /* Pink */
+  --pinkDark02: #7d4a62;
+  --pinkDark01: #bb6e92;
+  --pinkColor: #f993c3;
+  --pinkDimmed01: #fbbedb;
+  --pinkDimmed02: #fee9f3;
+  --pinkDimmed03: #fff5f9;
+}
+
+/* small utility for svg previews */
+.asset-svg {
+  display: flex; /* enable flex */
+  align-items: center; /* vertical center */
+  justify-content: center; /* horizontal center */
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Eczar", serif;
+}
+
+h2 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--mainColor);
+  text-underline-offset: 0.5rem;
+  font-weight: 800;
+  text-decoration-thickness: 2px;
+}

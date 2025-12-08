@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap");
+
+.skin01 {
+  fill: #fdd6d8;
+}
+.skin02 {
+  fill: #eabfbe;
+}
+.skin03 {
+  fill: #e9c0ac;
+}
+.skin04 {
+  fill: #d59174;
+}
+.skin05 {
+  fill: #c76b4f;
+}
+.skin06 {
+  fill: #b25235;
+}
+
+.skin01Dark01 {
+  fill: #ecaab3;
+}
+.skin01Dark02 {
+  fill: #ce9d9d;
+}
+.skin01Dark03 {
+  fill: #dfa890;
+}
+.skin01Dark04 {
+  fill: #b25235;
+}
+.skin01Dark05 {
+  fill: #913927;
+}
+.skin01Dark06 {
+  fill: #7e4300;
+}
+
+.white {
+  fill: #fff;
+}
+
+.grey {
+  fill: #ccc;
+}
+
+.outline {
+  fill: #03112e;
+}
