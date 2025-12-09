@@ -6,7 +6,7 @@ export default function AssetCard({ asset }) {
   const svgRef = useRef(null);
 
   // Build SVG path based on asset.id
-  const svgPath = `/assets/svg/${asset.id}.svg`;
+  const svgPath = `${import.meta.env.BASE_URL}assets/svg/${asset.id}.svg`;
 
   useEffect(() => {
     fetch(svgPath)

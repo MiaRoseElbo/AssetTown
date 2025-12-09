@@ -12,7 +12,7 @@ export default function App() {
 
   // Load logo.svg once when the app mounts
   useEffect(() => {
-    fetch("/assets/svg/logo.svg")
+    fetch(`${import.meta.env.BASE_URL}assets/svg/logo.svg`)
       .then((res) => res.text())
       .then(setLogoSvg)
       .catch((err) => console.error("Failed to load logo.svg", err));
