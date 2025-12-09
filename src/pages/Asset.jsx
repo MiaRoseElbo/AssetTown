@@ -13,7 +13,7 @@ export default function AssetPage() {
   useEffect(() => {
     if (!asset) return;
 
-    const svgPath = `/assets/svg/${asset.id}.svg`;
+    const svgPath = `${import.meta.env.BASE_URL}assets/svg/${asset.id}.svg`;
 
     fetch(svgPath)
       .then((res) => res.text())
@@ -57,7 +57,7 @@ export default function AssetPage() {
 
         <div className="mt-6 space-y-2">
           <a
-            href={`/assets/png/${asset.id}.png`}
+            href={`${import.meta.env.BASE_URL}assets/png/${asset.id}.png`}
             download={`${asset.id}.png`}
             className="block w-full text-center py-2 border rounded"
           >
@@ -65,7 +65,7 @@ export default function AssetPage() {
           </a>
 
           <a
-            href={`/assets/jpg/${asset.id}.jpg`}
+            href={`${import.meta.env.BASE_URL}assets/jpg/${asset.id}.jpg`}
             download={`${asset.id}.jpg`}
             className="block w-full text-center py-2 border rounded"
           >
