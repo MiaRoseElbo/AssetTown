@@ -15,10 +15,15 @@ body,
   /* Basics */
   --white: #fff;
   --grey: #ccc;
+  --grey50: #7f7f7f;
 
   /* xxx */
 
   /* Skins */
+  --skin03: #e9c0ac;
+  --skin04: #d59174;
+  --skin06: #b25235;
+  --skinDark03: #dfa890;
 
   /* Dark Blue */
   --darkBlueDark02: #03112e;
@@ -69,6 +74,7 @@ body,
   --orangeDimmed03: #fff5eb;
 
   /* Red */
+  --redDark03: #66142e;
   --redDark02: #91082c;
   --redDark01: #ab123a;
   --redColor: #f4313b;
@@ -99,6 +105,11 @@ body,
   --pinkDimmed01: #fbbedb;
   --pinkDimmed02: #fee9f3;
   --pinkDimmed03: #fff5f9;
+
+  /* Ivory */
+  --ivoryDark02: #999387;
+  --ivoryDark01: #c2baa8;
+  --ivoryColor: #dbd2c6;
 }
 
 /* small utility for svg previews */

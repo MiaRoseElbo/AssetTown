@@ -10,6 +10,31 @@
     "tags": ["office", "chair", "foreward facing"]
   },
   {
+    "id": "claude_standing",
+    "character": "Claude",
+    "tags": ["standing"]
+  },
+  {
+    "id": "gloria_standing",
+    "character": "Gloria",
+    "tags": ["standing"]
+  },
+  {
+    "id": "amilkar_sitting",
+    "character": "Amilkar",
+    "tags": ["sitting"]
+  },
+  {
+    "id": "judith_standing",
+    "character": "Judith",
+    "tags": ["standing"]
+  },
+  {
+    "id": "braulio_standing",
+    "character": "Braulio",
+    "tags": ["standing"]
+  },
+  {
     "id": "alex_sitting",
     "character": "Alex",
     "tags": [
