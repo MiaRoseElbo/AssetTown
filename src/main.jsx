@@ -6,8 +6,10 @@ import "./styles.css";
 
 console.log("🔥 React main.jsx loaded");
 
+import { HashRouter } from "react-router-dom";
+
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/AssetTown">
+  <HashRouter>
     <App />
-  </BrowserRouter>
+  </HashRouter>
 );
