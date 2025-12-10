@@ -36,9 +36,7 @@ export default function Terms() {
             <li>Personal use</li>
             <li>Educational and school projects</li>
             <li>Private creative projects</li>
-            <li>
-              Use in personal character sheets or private game-related materials
-            </li>
+            <li>Use in personal or private game-related materials</li>
             <li>Posting on social media with proper attribution</li>
           </ul>
 
@@ -48,7 +46,6 @@ export default function Terms() {
             <li>
               Uploading the files to asset libraries or free download sites
             </li>
-            <li>Selling merchandise using PNG/JPG files</li>
             <li>Claiming the artwork as your own</li>
             <li>Using the artwork in AI training datasets</li>
           </ul>
@@ -67,8 +64,10 @@ export default function Terms() {
           <h3 className="text-lg font-medium mt-4">Allowed</h3>
           <ul className="list-disc ml-6">
             <li>All personal uses listed in Section 2</li>
-            <li>Editing or recoloring the SVG for personal use</li>
-            <li>Use in private or commercial tabletop games you create</li>
+            <li>
+              Editing or recoloring the SVG for personal and commercial use
+            </li>
+            <li>Use in private or commercial material you create</li>
             <li>
               Use in commercial digital products (PDFs, websites, games) as long
               as the SVG is embedded and not extractable
@@ -142,7 +141,7 @@ export default function Terms() {
             SVGs. Suggested credit:
           </p>
           <p className="mt-2 p-3 bg-gray-100 rounded border">
-            “Artwork by Mia”
+            “Artwork by Mia Elbo”
           </p>
         </div>
 
@@ -171,10 +170,8 @@ export default function Terms() {
           <h2 className="text-2xl font-semibold mb-3">9. Contact</h2>
           <p>
             For licensing inquiries, corrections, or commercial requests, please
-            reach out at:
-          </p>
-          <p className="mt-2 p-3 bg-gray-100 rounded border">
-            your-email@example.com
+            reach out by clicking 'Contact me' in the footer, under Business
+            Inquiries.
           </p>
         </div>
       </section>

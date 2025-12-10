@@ -5,6 +5,21 @@
     "tags": ["standing", "pointing"]
   },
   {
+    "id": "nat_profile",
+    "character": "Nat",
+    "tags": ["standing", "pointing"]
+  },
+  {
+    "id": "vinka_action",
+    "character": "Vinka",
+    "tags": ["standing", "pointing"]
+  },
+  {
+    "id": "patra_action",
+    "character": "Patra",
+    "tags": ["standing", "pointing"]
+  },
+  {
     "id": "claude_sitting",
     "character": "Claude",
     "tags": ["office", "chair", "foreward facing"]

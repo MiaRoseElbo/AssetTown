@@ -128,9 +128,18 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[var(--colorDimmed03)] text-gray-900">
       {/* Header */}
-      <header className="h-40">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2">
+      <header className="h-auto md:h-40">
+        <div
+          className="
+      max-w-6xl mx-auto px-4 py-4
+      flex flex-col md:flex-row 
+      items-center md:items-center
+      justify-center md:justify-between 
+      text-center md:text-left
+      gap-4
+    "
+        >
+          <Link to="/" className="flex items-center justify-center gap-2">
             {logoSvg && (
               <div
                 className="[&>svg]:w-auto [&>svg]:h-16"
@@ -139,7 +148,7 @@ export default function App() {
             )}
           </Link>
 
-          <nav className="flex items-center gap-4">
+          <nav className="flex items-center justify-center gap-4">
             <Link to="/" className="hover:underline">
               Home
             </Link>
@@ -166,24 +175,46 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t mt-12 py-6 text-center text-sm text-gray-600">
-        <div className="space-x-4 mb-2">
-          <Link to="/about" className="hover:underline">
-            About
-          </Link>
-          <Link to="/terms" className="hover:underline">
-            Terms
-          </Link>
+      <footer className="bg-[var(--colorDimmed03)] py-12 mt-20">
+        <div className="max-w-6xl mx-auto px-4 grid gap-6 md:grid-cols-2">
+          {/* Suggest Asset */}
+          <div className="bg-white/60 backdrop-blur-md rounded-2xl p-6 shadow-sm border border-white/30">
+            <h3 className="text-xl font-semibold mb-2">Suggest a New Asset</h3>
+            <p className="text-gray-700 mb-4">
+              Have an idea for something that should be added to the database?
+              Let me know and I’ll take a look!
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeIzz6yZ2rjwNiFkvZEgKrN7yXn3C-SDRsX7C8NQtfKFkybww/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-2 px-4 py-2 rounded-xl bg-gray-900 text-white hover:bg-gray-700 transition"
+            >
+              Suggest Asset
+            </a>
+          </div>
+
+          {/* Business Contact */}
+          <div className="bg-white/60 backdrop-blur-md rounded-2xl p-6 shadow-sm border border-white/30">
+            <h3 className="text-xl font-semibold mb-2">Business Inquiries</h3>
+            <p className="text-gray-700 mb-4">
+              For collaborations, freelance requests, or professional inquiries,
+              feel free to reach out.
+            </p>
+            <a
+              href="mailto:miaroseelbo@email.com"
+              className="inline-block mt-2 px-4 py-2 rounded-xl bg-gray-900 text-white hover:bg-gray-700 transition"
+            >
+              Contact Me
+            </a>
+          </div>
         </div>
-        © {new Date().getFullYear()} —{" "}
-        <a
-          href="https://miaroseelbo.github.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:underline"
-        >
-          Mia Rose Elbo
-        </a>
+
+        <div className="text-center text-gray-500 mt-10 text-sm">
+          © {new Date().getFullYear()}{" "}
+          <a href="https://miaroseelbo.github.io/">Mia Rose</a> – All rights
+          reserved.
+        </div>
       </footer>
     </div>
   );
