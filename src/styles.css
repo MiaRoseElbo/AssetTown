@@ -8,6 +8,82 @@ body,
   height: 100%;
 }
 
+@keyframes cursorAnim {
+  0% {
+    cursor: url("/assets/cursor/cursor01.svg") 4 4, auto;
+  }
+  10% {
+    cursor: url("/assets/cursor/cursor02.svg") 4 4, auto;
+  }
+  17.5% {
+    cursor: url("/assets/cursor/cursor03.svg") 4 4, auto;
+  }
+  25% {
+    cursor: url("/assets/cursor/cursor04.svg") 4 4, auto;
+  }
+  32.5% {
+    cursor: url("/assets/cursor/cursor03.svg") 4 4, auto;
+  }
+  40% {
+    cursor: url("/assets/cursor/cursor02.svg") 4 4, auto;
+  }
+  47.5% {
+    cursor: url("/assets/cursor/cursor01.svg") 4 4, auto;
+  }
+  55% {
+    cursor: url("/assets/cursor/cursor05.svg") 4 4, auto;
+  }
+  62.5% {
+    cursor: url("/assets/cursor/cursor06.svg") 4 4, auto;
+  }
+  70% {
+    cursor: url("/assets/cursor/cursor07.svg") 4 4, auto;
+  }
+  77.5% {
+    cursor: url("/assets/cursor/cursor06.svg") 4 4, auto;
+  }
+  85% {
+    cursor: url("/assets/cursor/cursor05.svg") 4 4, auto;
+  }
+}
+
+@keyframes clickAnim {
+  0% {
+    cursor: url("/assets/cursor/click01.svg") 4 4, auto;
+  }
+  20% {
+    cursor: url("/assets/cursor/click02.svg") 4 4, auto;
+  }
+  30% {
+    cursor: url("/assets/cursor/click03.svg") 4 4, auto;
+  }
+  40% {
+    cursor: url("/assets/cursor/click04.svg") 4 4, auto;
+  }
+  50% {
+    cursor: url("/assets/cursor/click05.svg") 4 4, auto;
+  }
+  60% {
+    cursor: url("/assets/cursor/click04.svg") 4 4, auto;
+  }
+  70% {
+    cursor: url("/assets/cursor/click03.svg") 4 4, auto;
+  }
+  80% {
+    cursor: url("/assets/cursor/click02.svg") 4 4, auto;
+  }
+}
+
+html,
+body {
+  animation: cursorAnim 0.5s infinite steps(1) !important;
+}
+
+a,
+button {
+  animation: clickAnim 0.5s infinite steps(1) !important;
+}
+
 :root {
   /* Font */
   --font-main: "Eczar", serif;
@@ -32,7 +108,7 @@ body,
   --darkBlueColor: #0176de;
   --darkBlueDimmed01: #67adeb;
   --darkBlueDimmed02: #cce4f8;
-  --darBlueDimmed03: #e6f2fb;
+  --darkBlueDimmed03: #e6f2fb;
 
   /* Blue */
   --blueDark02: #314573;

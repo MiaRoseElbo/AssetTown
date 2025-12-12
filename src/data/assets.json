@@ -1,86 +1,98 @@
 [
   {
-    "id": "martin_standing",
-    "character": "Martin",
-    "tags": ["standing", "pointing"]
-  },
-  {
-    "id": "nat_profile",
-    "character": "Nat",
-    "tags": ["standing", "pointing"]
-  },
-  {
-    "id": "vinka_action",
-    "character": "Vinka",
-    "tags": ["standing", "pointing"]
-  },
-  {
-    "id": "patra_action",
-    "character": "Patra",
-    "tags": ["standing", "pointing"]
-  },
-  {
-    "id": "claude_sitting",
-    "character": "Claude",
-    "tags": ["office", "chair", "foreward facing"]
-  },
-  {
-    "id": "claude_standing",
-    "character": "Claude",
-    "tags": ["standing"]
-  },
-  {
-    "id": "gloria_standing",
-    "character": "Gloria",
-    "tags": ["standing"]
-  },
-  {
-    "id": "amilkar_sitting",
-    "character": "Amilkar",
-    "tags": ["sitting"]
-  },
-  {
-    "id": "judith_standing",
-    "character": "Judith",
-    "tags": ["standing"]
-  },
-  {
-    "id": "braulio_standing",
-    "character": "Braulio",
-    "tags": ["standing"]
-  },
-  {
     "id": "alex_sitting",
     "character": "Alex",
-    "tags": [
-      "profile",
-      "masc",
-      "short hair",
-      "sitting",
-      "eyes closed",
-      "celebrating"
-    ],
-    "buySvg": "https://payhip.com/b/gaKu5"
+    "tags": ["sitting", "short hair", "eyes closed", "relief"],
+    "buySvg": "https://payhip.com/b/8R5iX"
   },
   {
     "id": "alex_standing",
     "character": "Alex",
-    "tags": ["profile", "masc", "short hair", "standing", "holding paper"],
-    "buySvg": "https://payhip.com/b/zhNak"
+    "tags": ["standing", "short hair", "holding paper"],
+    "buySvg": "https://payhip.com/b/XVQgr"
+  },
+  {
+    "id": "amilkar_sitting",
+    "character": "Amilkar",
+    "tags": ["sitting", "wearing watch"],
+    "buySvg": "https://payhip.com/b/5DRvL"
+  },
+  {
+    "id": "braulio_standing",
+    "character": "Braulio",
+    "tags": ["standing", "masc", "beard"],
+    "buySvg": "https://payhip.com/b/BY3Zn"
+  },
+  {
+    "id": "victoria_profile",
+    "character": "Victoria",
+    "tags": ["glasses", "profile", "femme"],
+    "buySvg": "https://payhip.com/b/MYuw6"
+  },
+  {
+    "id": "jp_action",
+    "character": "JP",
+    "tags": ["standing", "construction"],
+    "buySvg": "https://payhip.com/b/SVKbs"
+  },
+  {
+    "id": "faith_standing",
+    "character": "Faith",
+    "tags": ["standing", "tattoo", "talking"],
+    "buySvg": "https://payhip.com/b/BpKo6"
+  },
+  {
+    "id": "nat_profile",
+    "character": "Nat",
+    "tags": ["standing", "pointing"],
+    "buySvg": "https://payhip.com/b/XLId8"
+  },
+  {
+    "id": "vinka_action",
+    "character": "Vinka",
+    "tags": ["standing", "pointing"],
+    "buySvg": "https://payhip.com/b/rFIWP"
+  },
+  {
+    "id": "claude_sitting",
+    "character": "Claude",
+    "tags": ["office", "sitting", "glasses", "laptop"],
+    "buySvg": "https://payhip.com/b/hwDSW"
+  },
+  {
+    "id": "claude_standing",
+    "character": "Claude",
+    "tags": ["standing", "glasses"],
+    "buySvg": "https://payhip.com/b/KoMPe"
+  },
+  {
+    "id": "gloria_standing",
+    "character": "Gloria",
+    "tags": ["standing", "femme", "waving"],
+    "buySvg": "https://payhip.com/b/uErw3"
+  },
+  {
+    "id": "judith_standing",
+    "character": "Judith",
+    "tags": ["standing"],
+    "buySvg": "https://payhip.com/b/xqeNs"
   },
   {
     "id": "victoria_profile_white",
     "character": "Victoria",
-    "tags": ["profile", "femme", "outline"]
+    "tags": ["profile", "femme", "outline"],
+    "buySvg": "https://payhip.com/b/q1O3I"
   },
   {
     "id": "victoria_sitting",
     "character": "Victoria",
-    "tags": ["profile", "femme", "sitting", "pointing", "talking"]
+    "tags": ["profile", "femme", "sitting", "pointing", "talking"],
+    "buySvg": "https://payhip.com/b/1PMrL"
   },
   {
     "id": "victoria_standing",
     "character": "Victoria",
-    "tags": ["profile", "femme", "standing", "smiling"]
+    "tags": ["profile", "femme", "standing", "smiling"],
+    "buySvg": "https://payhip.com/b/M2mju"
   }
 ]

@@ -81,8 +81,8 @@ export default function AssetPage() {
             className={`block w-full text-center py-2 rounded text-white
     ${
       asset.buySvg
-        ? "bg-indigo-600 hover:bg-indigo-700"
-        : "bg-gray-400 cursor-not-allowed"
+        ? "bg-[var(--mainColor)] hover:bg-[var(--colorDark02)]"
+        : "bg-gray-300 cursor-not-allowed"
     }`}
           >
             {asset.buySvg ? "Buy SVG" : "Not Available"}
