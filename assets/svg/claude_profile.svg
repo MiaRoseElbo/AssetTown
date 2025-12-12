@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 174.91 246.18">
+  <defs>
+    <style>
+      .white {
+        fill: #fff;
+      }
+
+      .orangeColor {
+        fill: #fc8500;
+      }
+
+      .orangeColor, .orangeDark01, .pinkDark01, .pinkDark02, .skin04, .redDimmed02 {
+        fill-rule: evenodd;
+      }
+
+      .pinkDimmed01 {
+        fill: #fbbedb;
+      }
+
+      .darkBlueDark02 {
+        fill: #03112e;
+      }
+
+      .orangeDark01 {
+        fill: #bd6400;
+      }
+
+      .pinkDark01, .pinkDark02, .skin04, .pinkDark01 {
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2.34px;
+      }
+
+      .pinkDark01, .pinkDark02, .skin04, .pinkDark01, .white2 {
+        fill: none;
+      }
+
+      .pinkDark01 {
+        stroke: #bb6e92;
+      }
+
+      .redDimmed02 {
+        fill: #fdd6d8;
+      }
+
+      .pinkDark02 {
+        stroke: #7d4a62;
+      }
+
+      .skin04 {
+        stroke: #d59174;
+      }
+
+      .pinkColor {
+        fill: #f993c3;
+      }
+
+      .claude_profile_clippath_01 {
+        clip-path: url(#clippath);
+      }
+
+      .claude_profile_gradient_01 {
+        fill: url(#claude_profile_gradient_01);
+      }
+    </style>
+    <linearGradient id="claude_profile_gradient_01" data-name="Degradado sin nombre 17" x1="87.46" y1="177.32" x2="87.46" y2="124.54" gradientUnits="userSpaceOnUse">
+      <stop offset=".51" stop-color="#fdd6d8"/>
+      <stop offset=".59" stop-color="#f9cfce"/>
+      <stop offset=".73" stop-color="#efbeb6"/>
+      <stop offset=".9" stop-color="#dfa38e"/>
+      <stop offset="1" stop-color="#d59174"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="white2" x="36.64" y="15.66" width="101.63" height="127.48" rx="47.74" ry="47.74"/>
+    </clipPath>
+  </defs>
+  <circle class="redDimmed02" cx="36.6" cy="83.57" r="15.87"/>
+  <circle class="redDimmed02" cx="138.2" cy="84.87" r="15.87"/>
+  <rect class="claude_profile_gradient_01" x="68.1" y="124.54" width="38.72" height="52.77"/>
+  <rect class="pinkDimmed01" x="0" y="160.33" width="174.91" height="85.85" rx="40.33" ry="40.33"/>
+  <circle class="orangeDark01" cx="92.62" cy="36.29" r="36.29"/>
+  <rect class="orangeDark01" x="98.3" y="26.04" width="42.43" height="71.86" rx="10.21" ry="10.21"/>
+  <rect class="orangeDark01" x="34.08" y="26.04" width="42.43" height="71.86" rx="10.21" ry="10.21"/>
+  <g class="claude_profile_clippath_01">
+    <path class="redDimmed02" d="m87.46,17.84h-1.64c-1.64,0-49.17,20.58-49.17,48.64v25.85c0,28.06,22.75,50.82,50.82,50.82h0c28.06,0,50.82-22.75,50.82-50.82v-25.85c0-28.06-22.75-48.64-50.82-48.64Z"/>
+    <path class="orangeColor" d="m62.62,32.51s15.2-14.32,29.52,0h.7v-13.45h-17.06c-6.93,0-12.66,5.39-13.08,12.31l-.07,1.14Z"/>
+    <circle class="orangeDark01" cx="36.64" cy="44.41" r="28.57"/>
+    <path class="orangeDark01" d="m87.46,15.66c-12.8,0-24.46,4.77-33.4,12.58v7.39h8.33c0-.12-.02-.24-.02-.36,0-8.27,6.71-14.98,14.98-14.98s14.98,6.71,14.98,14.98c0,.12-.02.24-.02.36h18.98v-14.02c-7.11-3.79-15.22-5.95-23.83-5.95Z"/>
+  </g>
+  <path class="skin04" d="m80.29,115.4s7.53,6.8,14.33,0"/>
+  <path class="pinkColor" d="m69.54,149.84h10.41c4.12,0,7.46,3.34,7.46,7.46v3.07c0,.96-.78,1.73-1.73,1.73h-16.14c-.96,0-1.73-.78-1.73-1.73v-8.8c0-.96.78-1.73,1.73-1.73Z"/>
+  <path class="pinkColor" d="m89.15,149.84h16.14c.96,0,1.73.78,1.73,1.73v3.07c0,4.12-3.34,7.46-7.46,7.46h-10.41c-.96,0-1.73-.78-1.73-1.73v-8.8c0-.96.78-1.73,1.73-1.73Z" transform="translate(194.44 311.95) rotate(-180)"/>
+  <path class="pinkDark01" d="m87.39,180.84v-23.72s.57-7.55,7.55-7.55h10.24"/>
+  <path class="orangeDark01" d="m130.73,23.46c-7.08,0-12.82-5.74-12.82-12.82-14.16,0-25.65,11.48-25.65,25.65s11.48,25.65,25.65,25.65,25.65-11.48,25.65-25.65c0-5.79-1.94-11.11-5.18-15.41-2.14,1.6-4.77,2.58-7.65,2.58Z"/>
+  <g>
+    <g>
+      <circle class="white" cx="64.67" cy="85.56" r="20.14"/>
+      <path class="pinkDark02" d="m44.53,85.56c0-11.12,9.02-20.14,20.14-20.14s20.14,9.02,20.14,20.14"/>
+      <circle class="white" cx="110.16" cy="85.56" r="20.14"/>
+      <path class="pinkDark02" d="m90.02,85.56c0-11.12,9.02-20.14,20.14-20.14s20.14,9.02,20.14,20.14"/>
+      <path class="pinkDark02" d="m84.81,85.52c0-1.44,1.17-2.61,2.61-2.61s2.61,1.17,2.61,2.61"/>
+      <path class="pinkDark02" d="m35.64,76.74c4.87,0,8.81,3.95,8.81,8.81"/>
+    </g>
+    <g>
+      <rect class="darkBlueDark02" x="65.45" y="82.21" width="4.01" height="6.69" rx="1.88" ry="1.88"/>
+      <rect class="darkBlueDark02" x="105.37" y="82.21" width="4.01" height="6.69" rx="1.88" ry="1.88"/>
+    </g>
+    <path class="pinkDark02" d="m130.46,85.56c0-4.87,3.95-8.81,8.81-8.81"/>
+  </g>
+  <path class="pinkColor" d="m108.53,188.25h20.94v15.49c0,5.43-4.41,9.84-9.84,9.84h-1.27c-5.43,0-9.84-4.41-9.84-9.84v-15.49h0Z"/>
+  <line class="pinkDark01" x1="92.62" y1="155.97" x2="96.28" y2="155.97"/>
+  <line class="pinkDark01" x1="77.65" y1="155.97" x2="81.31" y2="155.97"/>
+</svg>
