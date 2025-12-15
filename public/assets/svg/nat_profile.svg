@@ -26,15 +26,15 @@
         fill: #e6e6e6;
       }
 
-      .clippedPath {
-        clip-path: url(#clippath);
+      .nat_clippedPath {
+        clip-path: url(#nat_clippath);
       }
 
       .yellowDark01 {
         fill: #fec60d;
       }
 
-      .clippath {
+      .nat_clippath {
         fill: none;
       }
 
@@ -46,9 +46,9 @@
         fill: #d59174;
       }
     </style>
-    <clipPath id="clippath">
-      <rect class="clippath" x="20.06" y="311" width="253.6" height="117.42" rx="49.89" ry="49.89"/>
-    </clipPath>
+    <clippath id="nat_clippath">
+      <rect class="nat_clippath" x="20.06" y="311" width="253.6" height="117.42" rx="49.89" ry="49.89"/>
+    </clippath>
   </defs>
   <rect class="yellowDark01" x="90.84" y="275.01" width="118.62" height="56.18" rx="22.36" ry="22.36"/>
   <rect class="yellowDimmed01" x="20.06" y="311" width="253.6" height="117.42" rx="49.89" ry="49.89"/>
@@ -67,7 +67,7 @@
     <ellipse class="darkBlueDark02" cx="123.93" cy="186.31" rx="4.23" ry="6.34"/>
     <ellipse class="darkBlueDark02" cx="174.65" cy="186.31" rx="4.23" ry="6.34"/>
   </g>
-  <g class="clippedPath">
+  <g class="nat_clippedPath">
     <g>
       <rect class="yellowDark02" x="-1.07" y="302.55" width="127.5" height="194.71"/>
       <rect class="yellowDark02" x="173.87" y="302.55" width="120.92" height="194.71"/>
