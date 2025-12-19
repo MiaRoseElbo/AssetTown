@@ -159,7 +159,7 @@
         animation: penMove-Patra 10s infinite ease-in-out;
       }
       #eyes-Patra {
-        transform-origin: 148px 36px;
+        transform-origin: 148px 74px;
         animation: blinkEyes-Patra 3.8s infinite;
       }
       #right_arm-Patra {
@@ -295,7 +295,7 @@
         animation: shapeRotate01 10s linear infinite;
       }
       #background_shapes{
-        animation: shapeMovement 30s linear infinite;
+        animation: shapeMovement 15s linear infinite;
       }
       @keyframes shapeRotate01 {
         0%   { transform: rotate(0deg) }
@@ -442,7 +442,7 @@
     <polygon class="lightBlueDimmed02" points="262.3 156.78 263.49 103.34 243.57 99.51 249.95 109.01 245.1 112.64 262.3 156.78"/>
     
   </g>
-  <g id="freya_action" >
+  <g id="freya_action" class="button">
     <rect class="redDimmed02" x="760.53" y="121.68" width="28.34" height="145.53" rx="14.17" ry="14.17" transform="translate(389.51 -505.27) rotate(47.08)"/>
     <rect class="redDimmed02" x="695.88" y="121.94" width="28.34" height="130.88" rx="14.17" ry="14.17" transform="translate(1433.83 63.22) rotate(155.48)"/>
     <path class="redDimmed02" d="m703.87,139.78s-.62-18.55-13.64-19.31c-13.02-.77-11.49,14.55-11.49,14.55l25.13,4.76Z"/>
