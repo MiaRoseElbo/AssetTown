@@ -98,11 +98,13 @@
   {
     "id": "patra_action",
     "character": "Patra",
-    "tags": ["action", "science", "standing", "writting"]
+    "tags": ["action", "science", "standing", "writting"],
+    "buySvg": "https://payhip.com/b/NA8FW"
   },
   {
     "id": "freya_action",
     "character": "Freya",
-    "tags": ["action", "standing", "magnifying glass"]
+    "tags": ["action", "standing", "magnifying glass"],
+    "buySvg": "https://payhip.com/b/TEZcH"
   }
 ]

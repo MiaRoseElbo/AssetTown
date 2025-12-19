@@ -38,14 +38,14 @@ export default function Banner() {
   }, [svgHtml, navigate]);
 
   return (
-    <section className="mb-20">
+    <>
       {svgHtml && (
         <div
           ref={svgContainerRef}
-          className="w-full overflow-hidden"
+          className="w-full overflow-hidden rounded-2xl "
           dangerouslySetInnerHTML={{ __html: svgHtml }}
         />
       )}
-    </section>
+    </>
   );
 }
