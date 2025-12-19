@@ -94,5 +94,15 @@
     "character": "Victoria",
     "tags": ["profile", "femme", "standing", "smiling"],
     "buySvg": "https://payhip.com/b/M2mju"
+  },
+  {
+    "id": "patra_action",
+    "character": "Patra",
+    "tags": ["action", "science", "standing", "writting"]
+  },
+  {
+    "id": "freya_action",
+    "character": "Freya",
+    "tags": ["action", "standing", "magnifying glass"]
   }
 ]

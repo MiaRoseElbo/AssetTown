@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
+import Banner from "../components/Banner";
 import assetsData from "../data/assets.json";
 import AssetGrid from "../components/AssetGrid";
 import TagFilter from "../components/TagFilter";
@@ -55,12 +56,7 @@ export default function Home() {
       <div>
         {/* Banner */}
         <section className="mb-20">
-          {bannerSvg && (
-            <div
-              className="w-full [&>svg]:w-full [&>svg]:h-auto rounded-2xl overflow-hidden"
-              dangerouslySetInnerHTML={{ __html: bannerSvg }}
-            />
-          )}
+          <Banner />
         </section>
 
         {/* Spotlight */}
