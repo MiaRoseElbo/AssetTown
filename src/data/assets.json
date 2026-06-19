@@ -6,12 +6,6 @@
     "buySvg": "https://payhip.com/b/8R5iX"
   },
   {
-    "id": "alex_profile",
-    "character": "Alex",
-    "tags": ["profile", "short hair", "relief"],
-    "buySvg": ""
-  },
-  {
     "id": "alex_standing",
     "character": "Alex",
     "tags": ["standing", "short hair", "holding paper"],
