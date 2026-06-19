@@ -102,24 +102,24 @@ export default function App() {
 
     document.documentElement.style.setProperty(
       "--colorDark02",
-      randomColor.dark02
+      randomColor.dark02,
     );
     document.documentElement.style.setProperty(
       "--colorDark01",
-      randomColor.dark01
+      randomColor.dark01,
     );
     document.documentElement.style.setProperty("--mainColor", randomColor.main);
     document.documentElement.style.setProperty(
       "--colorDimmed01",
-      randomColor.dimmed01
+      randomColor.dimmed01,
     );
     document.documentElement.style.setProperty(
       "--colorDimmed02",
-      randomColor.dimmed02
+      randomColor.dimmed02,
     );
     document.documentElement.style.setProperty(
       "--colorDimmed03",
-      randomColor.dimmed03
+      randomColor.dimmed03,
     );
   }, []);
 
@@ -200,7 +200,7 @@ export default function App() {
               feel free to reach out.
             </p>
             <a
-              href="mailto:miaroseelbo@email.com"
+              href="mailto:miaroseelbo@gmail.com"
               className="inline-block mt-2 px-4 py-2 rounded-xl bg-gray-900 text-white hover:bg-gray-700 transition"
             >
               Contact Me
